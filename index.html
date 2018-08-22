@@ -11,30 +11,30 @@
 <div class="container">
     <h1>My Calculator</h1>
     <div>
-        <input class="row" type="number" disabled value="0">
+        <input class="row" type="text" disabled placeholder="0" id="calcText">
             <div class="row">
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="+">+</button>
+                <button onclick="updateDisplay(this)" id="7">7</button>
+                <button onclick="updateDisplay(this)" id="8">8</button>
+                <button onclick="updateDisplay(this)" id="9">9</button>
+                <button onclick="mathDisplay(this)" id="plus">+</button>
             </div>
             <div class="row">
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="-">-</button>
+                <button onclick="updateDisplay(this)" id="4">4</button>
+                <button onclick="updateDisplay(this)" id="5">5</button>
+                <button onclick="updateDisplay(this)" id="6">6</button>
+                <button onclick="mathDisplay(this)" id="minus">-</button>
             </div>
             <div class="row">
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="*">*</button>
+                <button onclick="updateDisplay(this)" id="1">1</button>
+                <button onclick="updateDisplay(this)" id="2">2</button>
+                <button onclick="updateDisplay(this)" id="3">3</button>
+                <button onclick="mathDisplay(this)" id="times">*</button>
             </div>
             <div class="row">
-                <button id="0">0</button>
-                <button id="clear">Clear</button>
-                <button id="=">=</button>
-                <button id="/">/</button>
+                <button onclick="updateZero(this)" id="0">0</button>
+                <button onclick="clearDisplay()" id="clear">Clear</button>
+                <button id="equal">=</button>
+                <button onclick="mathDisplay(this)" id="devide">/</button>
 
             </div>
     </div>
