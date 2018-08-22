@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    margin-top: 25px;
     height: 100%;
     width: 100%;
 }
@@ -21,4 +22,64 @@ input {
     padding-left: 20px;
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#equal {
+    background-color: orange;
+    border-style: none;
+}
+
+#plus {
+    background-color: orange;
+    border-style: none;
+}
+
+#minus {
+    background-color: orange;
+    border-style: none;
+}
+
+#times {
+    background-color: orange;
+    border-style: none;
+}
+
+#devide {
+    background-color: orange;
+    border-style: none;
+}
+
+button {
+    border-radius: 50px;
+    border-style: none;
+    margin: 2px;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#clear {
+    background-color: olivedrab;
+    font-size: 1rem;
+}
+
+.calc {
+    border: black solid 2px;
+    width: 218px;
+    background-color: black;
+}
+
+div.row {
+    width: 218px;
+}
+
+#calcText {
+    background-color: black;
+    color: whitesmoke;
+    border-style: none;
 }
