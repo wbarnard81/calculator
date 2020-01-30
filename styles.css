@@ -1,85 +1,104 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    margin-top: 25px;
-    height: 100%;
-    width: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-    height: 50px;
-    width: 50px;
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-
-input {
-    height: 50px;
-    width: 200px;
-    text-align: right;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: 500;
-    font-size: 1.5rem;
-}
-
-h1 {
-    margin-bottom: 15px;
-}
-
-#equal {
-    background-color: orange;
-    border-style: none;
-}
-
-#plus {
-    background-color: orange;
-    border-style: none;
-}
-
-#minus {
-    background-color: orange;
-    border-style: none;
-}
-
-#times {
-    background-color: orange;
-    border-style: none;
-}
-
-#devide {
-    background-color: orange;
-    border-style: none;
-}
-
-button {
-    border-radius: 50px;
-    border-style: none;
-    margin: 2px;
-    background-color: gray;
-    color: whitesmoke;
-    font-weight: 400;
-    font-size: 1.2rem;
-}
-
-#clear {
-    background-color: olivedrab;
-    font-size: 1rem;
+.heading {
+  font-size: 50px;
 }
 
 .calc {
-    border: black solid 2px;
-    width: 218px;
-    background-color: black;
+  border: black solid 2px;
+  width: 300px;
+  background-color: black;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.calc input {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  height: 50px;
+  width: 200px;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#equal {
+  background-color: #fea017;
+  border-style: none;
+}
+
+#plus {
+  background-color: #fea017;
+  border-style: none;
+}
+
+#minus {
+  background-color: #fea017;
+  border-style: none;
+}
+
+#times {
+  background-color: #fea017;
+  border-style: none;
+}
+
+#devide {
+  background-color: #fea017;
+  border-style: none;
+}
+
+#clear {
+  background-color: #a5a5a5;
+  color: black;
+  font-size: 1rem;
+}
+
+button {
+  border-radius: 50px;
+  border-style: none;
+  margin: 2px;
+  background-color: #323332;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 div.row {
-    width: 218px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #calcText {
-    background-color: black;
-    color: whitesmoke;
-    border-style: none;
+  background-color: black;
+  color: whitesmoke;
+  border-style: none;
 }
